@@ -189,7 +189,7 @@ class Game extends React.Component {
 
     render() {
         const history = this.state.history;
-        const current = history[this.state.stepNumber]; // 마지막 이동을 렌더링하는 대신 stepNumber에 맞는 현재 선택된 이동을 렌더링할 것입니다.
+        const current = history[this.state.stepNumber]; // 3. 마지막 이동을 렌더링하는 대신 stepNumber에 맞는 현재 선택된 이동을 렌더링할 것입니다.
         const winner = calculateWinner(current.squares);
 
         // 6. React 엘리먼트
